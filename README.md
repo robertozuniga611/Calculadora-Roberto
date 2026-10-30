@@ -12,5 +12,5 @@ index.html, styles.css, personalizacion.css, app.js, index-original.html (semana
 - Repositorio: https://github.com/robertozuniga611/Calculadora-Roberto
 - Sitio: https://TU-USUARIO.github.io/et403-calculadora/
 
-## Aportes del grupo
+## Aporte individual
 Integración de archivos, conversor, validaciones, pruebas y documentación.
