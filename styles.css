@@ -1,0 +1,9 @@
+/* Estilos base (estructura y diseño general) */
+body{font:18px system-ui,sans-serif;max-width:700px;margin:30px auto;padding:20px;line-height:1.4}
+section{margin-bottom:32px}
+label{display:block;margin-top:16px}
+input,select,button{font:inherit;padding:10px}
+input{width:95%;box-sizing:border-box}
+button{margin-top:20px;cursor:pointer}
+#resultado,#conv-resultado{background:#eef3f8;padding:16px}
+footer{font-size:.85rem;color:#444;border-top:1px solid #ccc;margin-top:24px}

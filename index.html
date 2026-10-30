@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calculadora y conversor ET403 · Semana 9</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="personalizacion.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora y conversor ET403 · Semana 9</h1>
+    <p>Calculadora de la semana 7 (suma y división con validaciones) más un conversor de unidades.</p>
+  </header>
+
+  <main>
+    <!-- SECCIÓN 1: calculadora de la semana 7 (conservada y completada) -->
+    <section aria-labelledby="titulo-calculadora">
+      <h2 id="titulo-calculadora">1. Calculadora</h2>
+      <label for="a" id="etiqueta-a">Primer número (A)</label>
+      <input id="a" type="text" value="12" autocomplete="off">
+      <label for="b">Segundo dato</label>
+      <input id="b" type="text" value="3" autocomplete="off">
+      <label for="operacion">Operación</label>
+      <select id="operacion">
+        <option value="sumar">Sumar</option>
+        <option value="dividir">Dividir</option>
+      </select>
+      <button id="calcular" type="button">Calcular</button>
+      <p id="resultado" role="status" aria-live="polite">Pulse Calcular para probar.</p>
+    </section>
+
+    <!-- SECCIÓN 2: conversor de unidades (integrado, semana 9) -->
+    <section aria-labelledby="titulo-conversor">
+      <h2 id="titulo-conversor">2. Conversor de unidades</h2>
+      <label for="conv-valor">Valor a convertir</label>
+      <input id="conv-valor" type="text" value="1" autocomplete="off">
+      <label for="conv-tipo">Conversión</label>
+      <select id="conv-tipo"></select>
+      <button id="convertir" type="button">Convertir</button>
+      <p id="conv-resultado" role="status" aria-live="polite">Pulse Convertir para probar.</p>
+    </section>
+  </main>
+
+  <footer><p>ET403 · Técnicas de Programación I · Grupo 6</p></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

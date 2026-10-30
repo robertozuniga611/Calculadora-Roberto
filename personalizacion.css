@@ -1,0 +1,11 @@
+/* Personalización (semana 9)
+   Paleta RGB elegida: azul rgb(30, 64, 175)
+   Texto cambiado: etiqueta #etiqueta-a ("Primer dato" -> "Primer número (A)")
+   Tamaño de la etiqueta: 1.35rem */
+:root{--azul:rgb(30,64,175);--fondo:rgb(238,242,255);--texto:rgb(17,24,39)}
+body{color:var(--texto)}
+h1,h2{color:var(--azul)}
+button{background:var(--azul);color:#fff;border:0;border-radius:6px}
+button:hover,button:focus{background:rgb(23,50,140)}
+#resultado,#conv-resultado{background:var(--fondo);border-left:6px solid var(--azul)}
+#etiqueta-a{font-size:1.35rem;font-weight:bold;color:var(--azul)}
