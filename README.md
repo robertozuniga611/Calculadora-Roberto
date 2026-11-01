@@ -9,8 +9,8 @@ Abrir index.html (o el sitio publicado). Calculadora: sumar o dividir con valida
 index.html, styles.css, personalizacion.css, app.js, index-original.html (semana 7)
 
 ## Enlaces
-- Repositorio: https://github.com/robertozuniga611/Calculadora-Roberto
-- Sitio: https://TU-USUARIO.github.io/et403-calculadora/
+- Repositorio: 
+- Sitio: https://github.com/robertozuniga611?tab=repositories
 
 ## Aporte individual
 Integración de archivos, conversor, validaciones, pruebas y documentación.
